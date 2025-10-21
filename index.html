@@ -13,12 +13,21 @@
     <p>
         <label for="nom">Nomble</label>
         <input type="text" maxlength="6"
-        name="Nomble"
+        name="Nomble" required  
+        placeholder="Escriba su nombre completo"
         id="nom">
+    </p>
+    <p>
+        <label for="pob">Poblacion</label>
+        <input type="text" value="Alcazar de San Juan" maxlength="50"
+        name="pob" autofocus
+        id="pob">
     </p>
      <p>
         <label for="contraseña">Contraseña</label>
-        <input type="password" maxlength="6"
+        <input type="password" 
+        maxlength="6"
+        minlength="4"
         name="contraseña"
         id="contraseña">
     </p>
@@ -33,7 +42,7 @@
     <p>
         <label for="Fumador">Fumador:</label>
         <input type="checkbox" name="fuma"
-        id="Fumador"> 
+        id="Fumador" checked> 
     </p>
     </fieldset>
     <p>
